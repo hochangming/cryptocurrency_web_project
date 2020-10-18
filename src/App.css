@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+body {
+  background-color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.coinlist-image {
+  width: 50px;
+}
+
+.coinlist-item {
+  display: flex; 
+  flex-wrap: wrap;
+  transition: transform .2s; /* Animation */
+
+}
+.go-to-detail:hover{ 
+  background-color: gold;
+}
+
+.back-to-cryptos:hover{
+  color: red;
+}
+.coinlist-item:hover{
+  transform: scale(0.95);
+}
+.coinsummary {
+  border-color: white !important;
+  border-style: outset !important;
+}
+
+.coin-data-category {
+  font-size: 10px;
+} 
+ 
+.active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #4dd0e1;
+  box-shadow: 0 1px 0 0 #4dd0e1;
+}
+
+.apexcharts-canvas{
+  background: white
+}
